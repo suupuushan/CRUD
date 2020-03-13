@@ -1,0 +1,77 @@
+body{
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.container1{
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;	
+}
+
+.main{
+	height: 100%;
+	width: 30%;
+	background: #d6d6d6;
+}
+
+.text {
+	position: absolute;
+	top:40%;
+	width: 30%;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.menu{
+	height: 50px;
+	margin-bottom: 5px;
+	background: #c2c2c2;
+	font-size: 20px;
+	color: black;
+	
+}
+
+.link {
+	text-decoration: none;
+}
+
+.pesan {
+	background: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70%;
+	height: 100%;
+
+}
+
+.pesan div{
+	text-decoration: none;
+	text-align: center;
+	font-size: 70px;
+}
+
+.greet {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.profile {
+	
+}
+
+.profile img {
+	position: absolute;
+	left :7%;
+	top :10%;
+	border-radius: 50%;
+}
+

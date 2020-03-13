@@ -1,0 +1,91 @@
+body{
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.container{
+	width: 250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;	
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+.container h2{
+	float: left;
+	font-size: 40px;
+	border-bottom: 4px solid green;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.box-login{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid;
+
+}
+
+.box-login i{
+	width: 26px;
+	float:left;
+	text-align: center;
+
+}
+
+.box-login input{
+	border:none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+
+}
+
+.btn{
+	width: 100%;
+	background: green;
+	border-radius: 50px;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.regis {
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+.regis a {
+	text-decoration: none;
+	color: blue;
+}
+.messege{
+	text-align: center;
+	width: 100%;
+	background: pink;
+	border-radius: 10px;
+}
+
+.lupa {
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+
+.lupa a {
+	text-decoration: none;
+	color: blue;
+
+}
